@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crystal Collector game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+     <script type="text/javascript" src="assets/javascript/game.js"></script>
+     
+    </head>
+
+<body>
+
+
+
+    <h1 class=game-title>Crystals Collector!</h1>
+
+    <p class=instructions>
+        You will be given a random number at the start of the game.
+        <br>
+        <br>
+        There are four crystals below. By clicking on a crystal, you
+        will add a specific amount of points to your total score.
+        <br>
+        <br>
+        You win the game by matching your total score to the random number.
+        You lose the game if your total score goes above the random number.
+        <br>
+        <br>
+        The value of each crystal is hidden from you until you click on it.
+        <br>
+        <br>
+        Each time when the game starts, the game will change the values of each crystal.
+        Good luck!!
+    </p>
+    <h2 class=target>Target Score: <span id="target-score"></span></h2>
+    <div class="winsLossesBox">
+        <h4>Wins: <span id="wins"></span></h4>
+        <h4>Losses: <span id="losses"></span></h4>
+    </div>
+
+    
+    <div class="row2">
+        <div class="crystal">
+            <button><img src="assets/images/red.jpeg" alt="red" class="crystal-image" id="red-crystal">
+            </button>
+            <button><img src="assets/images/blue.jpeg" alt="blue" class="crystal-image" id="blue-crystal">
+            </button>
+            <button><img src="assets/images/yellow.jpeg" alt="yellow" class="crystal-image" id="yellow-crystal">
+            </button>
+            <button><img src="assets/images/green.jpeg" alt="green" class="crystal-image" id="green-crystal">
+            </button>
+        </div>
+    </div>
+
+    <div>
+        <h2 class=score>Your total score is: <span id="total-score"></span></h2>
+    </div>
+
+
+
+
+
+
+    
+
+
+
+
+
+</body>
+
+</html>
